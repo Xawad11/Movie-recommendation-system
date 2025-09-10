@@ -14,11 +14,14 @@
 - Clustering: Silhouette score, Genre purity
 
 ## Dataset
-We used the **movies.csv** dataset (~4803 movies, ~24 features) containing metadata such as:
-- Title, Overview, Genres, Keywords, Cast, Director  
-- Numeric features: Vote average, Vote count, Runtime, Popularity, etc.  
+We use a movie metadata file `movies.csv` (~4803 movies, ~24 features), which contains:
+- **Textual features:** title, overview, genres, keywords, cast, director  
+- **Numeric features:** vote_average, vote_count, runtime, popularity, budget, revenue  
 
-## How to Run
-- Open the notebook in Google Colab  
-- Upload `movies.csv` to your Drive under `/ML Project/`  
-- Run cells sequentially to preprocess, train, and evaluate models  
+The dataset can be downloaded here:  
+[📥 Download movies.csv (Google Drive link)](https://drive.google.com/file/d/1cCkwiVv4mgfl20ntgY3n4yApcWqqZQe6/view)
+
+To run the notebook:
+1. Download the dataset from the above link.  
+2. Upload it to your Google Drive under `/ML Project/movies.csv`  
+   (or update the notebook path to match your folder).  
